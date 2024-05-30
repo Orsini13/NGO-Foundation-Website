@@ -7,11 +7,11 @@ const Navbar = () => {
     <nav className='container'>
         <img src={logo} alt="" className='logo' />
         <ul>
-            <li>Home</li>
-            <li><button>Contact us</button></li>
-            <li><button>Contact us</button></li>
-            <li><button>Contact us</button></li>
-            <li><button>Contact us</button></li>
+            <li><button className='btn'>Home</button></li>
+            <li><button className='btn'>Programs</button></li>
+            <li><button className='btn'>Donations</button></li>
+            <li><button className='btn'>About us</button></li>
+            <li><button className='btn'>Contact us</button></li> 
             <li><button className='btn'>Contact us</button></li>
         </ul>
     </nav>

@@ -8,7 +8,7 @@
 
 }
 body{
-  background: rgba(63, 65, 3, 0.7);
+  background: rgb(248, 248, 248);
 }
 a{
   text-decoration: none;
@@ -36,4 +36,8 @@ a{
 .btn img{
   width: 20px;
   margin-left: 10px;
+}
+.btn.dark-btn{
+  background: #212EA0;
+  color: #fff;
 }

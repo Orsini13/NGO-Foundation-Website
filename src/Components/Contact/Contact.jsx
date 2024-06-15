@@ -23,10 +23,11 @@ const Contact = () => {
     }).then((response) => response.json());
 
     // const data = await response.json();
+    
 
     if (response.success) {
       console.log("Success", response);
-      setResult(response.message);
+      setResult(response.message);  
       event.target.reset();
     } else {
       console.log("Error", response);
